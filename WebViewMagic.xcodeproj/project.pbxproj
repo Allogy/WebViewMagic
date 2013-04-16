@@ -190,6 +190,7 @@
 		796B4D59171D02430042E56F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WVM;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Allogy Interactive";
 			};
