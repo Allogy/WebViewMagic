@@ -11,11 +11,14 @@
 		796B4D6A171D02430042E56F /* WebViewMagic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 796B4D69171D02430042E56F /* WebViewMagic.h */; };
 		796B4D6C171D02430042E56F /* WebViewMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B4D6B171D02430042E56F /* WebViewMagic.m */; };
 		796B4D74171D02430042E56F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796B4D73171D02430042E56F /* SenTestingKit.framework */; };
-		796B4D76171D02430042E56F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796B4D75171D02430042E56F /* UIKit.framework */; };
 		796B4D77171D02430042E56F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796B4D64171D02430042E56F /* Foundation.framework */; };
 		796B4D7A171D02430042E56F /* libWebViewMagic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 796B4D61171D02430042E56F /* libWebViewMagic.a */; };
 		796B4D80171D02430042E56F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 796B4D7E171D02430042E56F /* InfoPlist.strings */; };
 		796B4D83171D02430042E56F /* WebViewMagicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B4D82171D02430042E56F /* WebViewMagicTests.m */; };
+		796B4D94171D031C0042E56F /* WVMViewport.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B4D93171D031C0042E56F /* WVMViewport.m */; };
+		796B4D96171D04450042E56F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796B4D95171D04450042E56F /* UIKit.framework */; };
+		796B4D9C171D05260042E56F /* UIWebView+WebViewMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B4D9B171D05250042E56F /* UIWebView+WebViewMagic.m */; };
+		796B4D9E171D0FA40042E56F /* WebViewMagic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 796B4D9D171D0FA40042E56F /* WebViewMagic.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +52,16 @@
 		796B4D6B171D02430042E56F /* WebViewMagic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewMagic.m; sourceTree = "<group>"; };
 		796B4D72171D02430042E56F /* WebViewMagicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewMagicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		796B4D73171D02430042E56F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		796B4D75171D02430042E56F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		796B4D7D171D02430042E56F /* WebViewMagicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewMagicTests-Info.plist"; sourceTree = "<group>"; };
 		796B4D7F171D02430042E56F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		796B4D81171D02430042E56F /* WebViewMagicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewMagicTests.h; sourceTree = "<group>"; };
 		796B4D82171D02430042E56F /* WebViewMagicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewMagicTests.m; sourceTree = "<group>"; };
+		796B4D92171D031C0042E56F /* WVMViewport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVMViewport.h; sourceTree = "<group>"; };
+		796B4D93171D031C0042E56F /* WVMViewport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVMViewport.m; sourceTree = "<group>"; };
+		796B4D95171D04450042E56F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		796B4D9A171D05250042E56F /* UIWebView+WebViewMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+WebViewMagic.h"; sourceTree = "<group>"; };
+		796B4D9B171D05250042E56F /* UIWebView+WebViewMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+WebViewMagic.m"; sourceTree = "<group>"; };
+		796B4D9D171D0FA40042E56F /* WebViewMagic.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewMagic.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				796B4D96171D04450042E56F /* UIKit.framework in Frameworks */,
 				796B4D65171D02430042E56F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				796B4D74171D02430042E56F /* SenTestingKit.framework in Frameworks */,
-				796B4D76171D02430042E56F /* UIKit.framework in Frameworks */,
 				796B4D77171D02430042E56F /* Foundation.framework in Frameworks */,
 				796B4D7A171D02430042E56F /* libWebViewMagic.a in Frameworks */,
 			);
@@ -82,6 +90,7 @@
 		796B4D58171D02420042E56F = {
 			isa = PBXGroup;
 			children = (
+				796B4D9D171D0FA40042E56F /* WebViewMagic.podspec */,
 				796B4D66171D02430042E56F /* WebViewMagic */,
 				796B4D7B171D02430042E56F /* WebViewMagicTests */,
 				796B4D63171D02430042E56F /* Frameworks */,
@@ -103,7 +112,7 @@
 			children = (
 				796B4D64171D02430042E56F /* Foundation.framework */,
 				796B4D73171D02430042E56F /* SenTestingKit.framework */,
-				796B4D75171D02430042E56F /* UIKit.framework */,
+				796B4D95171D04450042E56F /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,6 +122,10 @@
 			children = (
 				796B4D69171D02430042E56F /* WebViewMagic.h */,
 				796B4D6B171D02430042E56F /* WebViewMagic.m */,
+				796B4D9A171D05250042E56F /* UIWebView+WebViewMagic.h */,
+				796B4D9B171D05250042E56F /* UIWebView+WebViewMagic.m */,
+				796B4D92171D031C0042E56F /* WVMViewport.h */,
+				796B4D93171D031C0042E56F /* WVMViewport.m */,
 				796B4D67171D02430042E56F /* Supporting Files */,
 			);
 			path = WebViewMagic;
@@ -218,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				796B4D80171D02430042E56F /* InfoPlist.strings in Resources */,
+				796B4D9E171D0FA40042E56F /* WebViewMagic.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				796B4D6C171D02430042E56F /* WebViewMagic.m in Sources */,
+				796B4D94171D031C0042E56F /* WVMViewport.m in Sources */,
+				796B4D9C171D05260042E56F /* UIWebView+WebViewMagic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
