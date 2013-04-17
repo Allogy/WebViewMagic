@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  version = "0.0.0"
+  version = "0.0.1"
 
   s.name         = "WebViewMagic"
   s.version      = version
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   }
 
   s.author       = { "Richard Venable" => "richard@epicfox.com" }
-  s.source       = { :git => "ssh://devel.allogy.com/projects/ios/modules/WebViewMagic.git", :tag => version }
+  s.source       = { :git => "https://github.com/Allogy/WebViewMagic.git", :tag => version }
   s.platform     = :ios, '6.0'
   s.source_files = 'WebViewMagic/**/*.{h,m}'
   s.framework  = 'Foundation', 'UIKit'
