@@ -204,6 +204,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WVM;
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Allogy Interactive";
 			};
@@ -420,6 +421,7 @@
 				796B4D88171D02430042E56F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		796B4D89171D02430042E56F /* Build configuration list for PBXNativeTarget "WebViewMagicTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +430,7 @@
 				796B4D8B171D02430042E56F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
